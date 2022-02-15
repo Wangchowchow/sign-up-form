@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.left-section{
+    background-image: url(image.jpeg);
+    background-repeat: none;
+    width: 30%;
+    flex-shrink: 0;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    top: 15%;
+    padding: 10px;
+}
+h1{
+    font-family: Norse;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+img{
+    height: 125px;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+}
+.form-description{
+    background-color: whitesmoke;
+    padding: 32px;
+}
+.form-container{
+    padding: 32px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    display: flex;
+    border: none;
+    padding: 5px 0;
+    gap: 50px;
+}
+form input{
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+form label{
+    font-size: 12px;
+    font-weight: bold;
+}
+.form-bottom{
+    padding: 40px 0 20px 32px;
+    background-color: whitesmoke;
+}
+.form-bottom p{
+    font-size: 16px;
+}
+.form-bottom a{
+    color: #596D48;
+    text-decoration: none;
+}
+button{
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover{
+    transform: scale(1.02);
+}
