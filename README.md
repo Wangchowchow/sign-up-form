@@ -4,7 +4,7 @@ This is a sign up page that requires user to fill their name, email, phone numbe
 * HTML
 * CSS
 ## Notes
-* Validations by basic built in HTML validations.
+* Validations by built in HTML validations.
 * Links are dummies.
 ## Live Version
 [Sign Up Form](https://wangchowchow.github.io/sign-up-form/)
